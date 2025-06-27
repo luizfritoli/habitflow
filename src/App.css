@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+}
+
+.weekday {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  appearance: none;
+}
