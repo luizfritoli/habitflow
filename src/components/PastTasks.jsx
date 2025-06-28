@@ -11,15 +11,15 @@ const PastTasks = () => {
       {updatedKeys.map(({ date, tasks }) => (
         <div key={date} className={theme === 'light' ? `flex flex-col justify-center items-center
            bg-neutral-50 w-[90%] md:w-[60%] min-h-10 h-auto
-            shadow-2xl shadow-black px-4 gap-y-3`
+            shadow-2xl shadow-black px-4 gap-y-1`
           : `flex flex-col justify-center items-center bg-neutral-50 w-[90%] md:w-[60%]
-             min-h-10 h-auto shadow-md shadow-white px-4 gap-y-3 text-black`
+             min-h-10 h-auto shadow-md shadow-white px-4 gap-y-1 text-black`
       }>
           <h2 className='font-bold'>{date}</h2>
           <ul>
             {tasks.length > 0 ? (
               tasks.map((taskObj) => (
-                <li key={taskObj.id}>
+                <li key={taskObj.id} className='gap-y-1'>
                   {taskObj.task} {taskObj.completed ? '✅' : '❌'}
                 </li>
               ))
