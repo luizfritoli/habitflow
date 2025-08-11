@@ -13,6 +13,24 @@ querer mostrar que uma lista de tarefas (todo list) pode ser mais do que apenas
 registrar tarefas simples, controlando hábitos e adotando melhores práticas na
 vida pessoal.
 
+## Demonstração
+
+<p>
+  <img src="./public/habitflow1.png" width="30%" />
+  <img src="./public/habitflow2.png" width="30%" />
+  <img src="./public/habitflow3.png" width="30%" />
+</p>
+
+[Acesse a versão online aqui](https://habitflow-phi.vercel.app)
+
+## Funcionalidades
+
+- Lista de tarefas diárias que resetam a cada dia
+- Lista das últimas 7 (sete) tarefas diárias
+- Campo para registrar dinheiro poupado
+- Gráfico interativo para registrar gastos
+- Modo escuro
+
 ## Instruções de instalação
 
 ### Pré-requisitos
